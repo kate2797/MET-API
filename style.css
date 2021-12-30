@@ -126,3 +126,34 @@ footer {
     margin-left: 73px;
     text-align: left;
 }
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .about {
+        text-align: center;
+        padding: 0;
+        margin: auto;
+        width: 80%;
+        line-height: 200%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-header {
+        margin: auto;
+        text-align: center;
+    }
+
+    button {
+        width: 10em;
+    }
+
+    .main {
+        display: block;
+    }
+
+    #card1 {
+        margin-bottom: 28px;
+    }
+}
