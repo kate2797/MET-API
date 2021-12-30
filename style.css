@@ -1,0 +1,128 @@
+* {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+p {
+    font-size: 14px;
+}
+
+#heading {
+    font-family: 'Forum', cursive;
+    font-size: 41px;
+    margin: 0;
+    padding: 20px 0 0 0;
+}
+
+body {
+    -webkit-animation-name: animation;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    background-color: #ddeefc;
+}
+
+@-webkit-keyframes animation {
+    0%     {background-color: #ddeefc;}
+    50.0%  {background-color: #c0e5d5;}
+    100.0%  {background-color: #ddeefc;}
+}
+
+@keyframes animation {
+    0%     {background-color:#ddeefc;}
+    50.0%  {background-color:#c0e5d5;}
+    100.0%  {background-color:#ddeefc;}
+}
+
+button {
+    margin: 0 7px 0 7px;
+    height: 55px;
+    width: 15%;
+    background: #2364d2;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 10px 20px 0 rgba(35, 100, 210, 0.3);
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    width: 300px;
+    height: 510px;
+    padding: 24px 24px 24px 24px;
+    margin: 0 10px 0 10px;
+    border-radius: 4px;
+    background-color: white;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+    height: 330px;
+}
+
+span {
+    text-transform: uppercase;
+    color: darkgray;
+    margin-right: 15px;
+}
+
+.image-container {
+    justify-content: center;
+}
+
+#subtitle {
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+    margin: 30px 0 30px 0;
+}
+
+.info a, .about a {
+    color: #2364d2;
+    text-decoration-thickness: .050em;
+    text-underline-offset: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+}
+
+.dynamic-link {
+    text-decoration: none;
+    color: #2364d2;
+}
+
+.title, button {
+    font-weight: 600;
+}
+
+.about {
+    margin-left: 73px;
+    width: 947px;
+    line-height: 200%;
+}
+
+.about-header {
+    margin-left: 73px;
+    text-align: left;
+}
