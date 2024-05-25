@@ -1,7 +1,8 @@
 # Mix & Match App
 
 ## General info
-I am an art and fashion lover. Mix & Match is a fun project that makes use of the Metropolitan Museum of Art Collection API to generate random historical outfits. [See Mix & Match in action](https://kate2797.github.io/mix-and-match/) ✨
+
+I'm an art and fashion enthusiast. Mix & Match is a toy project that uses the Metropolitan Museum of Art Collection API to generate random historical outfits based on your preferences. Please note that the API's metadata isn't perfect, so the results may sometimes be unexpected.
 
 ## Technologies
 - HTML
